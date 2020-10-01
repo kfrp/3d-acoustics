@@ -1,0 +1,424 @@
+#pano_nav_orbit {
+  z-index: 200;
+  position: absolute;
+  left: 40px;
+  bottom: 20px;
+  height: 120px;
+  width: 120px;
+}
+#pano_nav_orbit {
+  position: absolute;
+  left: 40px;
+  bottom: 20px;
+  /*background-color: rgba(255, 0, 0, 0.5);*/
+  height: 100px;
+  width: 100px;
+}
+.pano_nav_macro {
+  position: absolute;
+  /*display:none;*/
+}
+.pnav {
+  display: inline-block;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-image: url(https://uploads.codesandbox.io/uploads/user/fa64577d-effb-4326-9289-84f797005d07/MWz1-pnav.png);
+}
+.pnav_outer_circle {
+  width: 99px;
+  height: 99px;
+  background-position: -2px -2px;
+}
+.pnav_outer_circle {
+  left: 0px;
+  top: 0px;
+}
+.pnav {
+  display: inline-block;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-image: url(https://uploads.codesandbox.io/uploads/user/fa64577d-effb-4326-9289-84f797005d07/MWz1-pnav.png);
+}
+.pnav_inner_circle {
+  width: 53px;
+  height: 53px;
+  background-position: -65px -166px;
+}
+.pnav_graphic {
+  position: absolute;
+}
+.pnav_inner_circle {
+  left: 23px;
+  top: 23px;
+  /*display:none;*/
+}
+#pano_nav_orbit_cardinal_box {
+  position: absolute;
+  left: 28px;
+  top: 28px;
+}
+#pano_nav_zoom_view {
+  position: absolute;
+  left: -55px;
+  width: 40px;
+  top: 10px;
+}
+#pano_nav_zoom_view {
+  position: absolute;
+  left: -50px;
+  width: 20px;
+  top: -25px;
+  /*background-color: rgba(255, 243, 0, 0.34);*/
+  height: 95px;
+  cursor: pointer;
+}
+.pano_nav_btn {
+  width: 20px;
+  height: 20px;
+  /*background-color: red;	*/
+  border-radius: 4px;
+  text-align: center;
+  /*margin:2px;*/
+  float: left;
+  cursor: pointer;
+  /*opacity:.6;*/
+}
+.pano_nav_btn {
+  /*background-color: orange;*/
+  display: table-cell;
+  vertical-align: middle;
+}
+#pano_nav_zoom_in {
+}
+.pnav {
+  display: inline-block;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-image: url(https://uploads.codesandbox.io/uploads/user/fa64577d-effb-4326-9289-84f797005d07/MWz1-pnav.png);
+}
+.pnav_plus {
+  width: 18px;
+  height: 18px;
+  background-position: -103px -22px;
+}
+.pnav_icon {
+  vertical-align: middle;
+  horizontal-align: center;
+  font-weight: 200;
+  display: inline-block;
+}
+#pano_nav_slider_shaft {
+  position: absolute;
+  /*left: -10px;*/
+  top: 20px;
+
+  /*border: 1px solid red;*/
+
+  /*background-color: rgba(255, 165, 0, 0.32);*/
+  height: 60px;
+  width: 20px;
+  /*padding-left:10px;*/
+  /*cursor:pointer;*/
+}
+.pnav {
+  display: inline-block;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-image: url(https://uploads.codesandbox.io/uploads/user/fa64577d-effb-4326-9289-84f797005d07/MWz1-pnav.png);
+}
+.pnav_slider_shaft {
+  margin-left: 10px;
+  margin-top: 1px;
+  width: 1px;
+  height: 57px;
+  background-position: -123px -2px;
+}
+.pnav_graphic {
+  position: absolute;
+}
+#pano_nav_slider_elevator {
+  position: absolute;
+  left: 8px;
+  top: 20px;
+}
+.pnav {
+  display: inline-block;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-image: url(https://uploads.codesandbox.io/uploads/user/fa64577d-effb-4326-9289-84f797005d07/MWz1-pnav.png);
+}
+.pnav_slider_elevator {
+  width: 6px;
+  height: 5px;
+  background-position: -119px -90px;
+}
+.pnav_graphic {
+  position: absolute;
+}
+#pano_nav_shaft_catcher {
+  position: absolute;
+  /*left: -10px;*/
+  top: 20px;
+  height: 60px;
+  width: 20px;
+  cursor: pointer;
+  /*ORANGE MARKER*/
+  /*background-color: rgba(255, 165, 0, 0.32);*/
+}
+.pano_nav_btn {
+  width: 20px;
+  height: 20px;
+  /*background-color: red;	*/
+  border-radius: 4px;
+  text-align: center;
+  /*margin:2px;*/
+  float: left;
+  cursor: pointer;
+  /*opacity:.6;*/
+}
+.pano_nav_btn {
+  /*background-color: orange;*/
+  display: table-cell;
+  vertical-align: middle;
+}
+#pano_nav_zoom_out {
+}
+#pano_nav_zoom_out {
+  margin-top: 56px;
+}
+.pnav {
+  display: inline-block;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-image: url(https://uploads.codesandbox.io/uploads/user/fa64577d-effb-4326-9289-84f797005d07/MWz1-pnav.png);
+}
+.pnav_minus {
+  width: 18px;
+  height: 18px;
+  background-position: -103px -62px;
+}
+.pnav_icon {
+  vertical-align: middle;
+  horizontal-align: center;
+  font-weight: 200;
+  display: inline-block;
+}
+#pano_nav_orbit_knob_box {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+#pano_nav_orbit_knob_box,
+#pano_nav_compass_macro {
+  position: absolute;
+  left: -28px;
+  top: -28px;
+}
+
+.knob {
+  display: none;
+}
+#pano_nav_orbit_knob_box,
+#pano_nav_compass_macro {
+  position: absolute;
+  left: -28px;
+  top: -28px;
+}
+#pano_nav_compass_micro div,
+#pano_nav_compass_macro div {
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+#pano_nav_orbit_cardinal {
+  position: relative;
+
+  width: 65px;
+  height: 65px;
+  background-color: rgba(64, 70, 92, 0.04);
+  border-radius: 20px;
+}
+#pano_nav_orbit_cardinal {
+  /*background-color: blue;*/
+  position: relative;
+  width: 46px;
+  height: 46px;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 50%;
+  border: none;
+}
+.pano_nav_btn {
+  width: 20px;
+  height: 20px;
+  /*background-color: red;	*/
+  border-radius: 4px;
+  text-align: center;
+  /*margin:2px;*/
+  float: left;
+  cursor: pointer;
+  /*opacity:.6;*/
+}
+.pano_nav_btn {
+  /*background-color: orange;*/
+  display: table-cell;
+  vertical-align: middle;
+}
+#pano_nav_orbit_left {
+  position: absolute;
+  left: 0px;
+  top: 20px;
+}
+#pano_nav_orbit_left {
+  position: absolute;
+  left: -4px;
+  top: 10px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.pnav {
+  display: inline-block;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-image: url(https://uploads.codesandbox.io/uploads/user/fa64577d-effb-4326-9289-84f797005d07/MWz1-pnav.png);
+}
+.pnav_left {
+  width: 6px;
+  height: 8px;
+  background-position: -111px -90px;
+}
+.pnav_icon {
+  vertical-align: middle;
+  horizontal-align: center;
+  font-weight: 200;
+  display: inline-block;
+}
+.pano_nav_btn {
+  width: 20px;
+  height: 20px;
+  /*background-color: red;	*/
+  border-radius: 4px;
+  text-align: center;
+  /*margin:2px;*/
+  float: left;
+  cursor: pointer;
+  /*opacity:.6;*/
+}
+.pano_nav_btn {
+  /*background-color: orange;*/
+  display: table-cell;
+  vertical-align: middle;
+}
+#pano_nav_orbit_right {
+  position: absolute;
+  right: 0px;
+  top: 20px;
+}
+#pano_nav_orbit_right {
+  position: absolute;
+  left: 28px;
+  top: 10px;
+}
+.pnav {
+  display: inline-block;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-image: url(https://uploads.codesandbox.io/uploads/user/fa64577d-effb-4326-9289-84f797005d07/MWz1-pnav.png);
+}
+.pnav_right {
+  width: 6px;
+  height: 8px;
+  background-position: -103px -90px;
+}
+.pnav_icon {
+  vertical-align: middle;
+  horizontal-align: center;
+  font-weight: 200;
+  display: inline-block;
+}
+.pano_nav_btn {
+  width: 20px;
+  height: 20px;
+  /*background-color: red;	*/
+  border-radius: 4px;
+  text-align: center;
+  /*margin:2px;*/
+  float: left;
+  cursor: pointer;
+  /*opacity:.6;*/
+}
+.pano_nav_btn {
+  /*background-color: orange;*/
+  display: table-cell;
+  vertical-align: middle;
+}
+#pano_nav_orbit_up {
+  position: absolute;
+  left: 20px;
+  top: 0px;
+}
+#pano_nav_orbit_up {
+  position: absolute;
+  left: 12px;
+  top: -5px;
+}
+.pnav {
+  display: inline-block;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-image: url(https://uploads.codesandbox.io/uploads/user/fa64577d-effb-4326-9289-84f797005d07/MWz1-pnav.png);
+}
+.pnav_up {
+  width: 8px;
+  height: 6px;
+  background-position: -103px -82px;
+}
+.pnav_icon {
+  vertical-align: middle;
+  horizontal-align: center;
+  font-weight: 200;
+  display: inline-block;
+}
+.pano_nav_btn {
+  width: 20px;
+  height: 20px;
+  /*background-color: red;	*/
+  border-radius: 4px;
+  text-align: center;
+  /*margin:2px;*/
+  float: left;
+  cursor: pointer;
+  /*opacity:.6;*/
+}
+.pano_nav_btn {
+  /*background-color: orange;*/
+  display: table-cell;
+  vertical-align: middle;
+}
+#pano_nav_orbit_down {
+  position: absolute;
+  left: 20px;
+  bottom: 0px;
+}
+#pano_nav_orbit_down {
+  position: absolute;
+  left: 12px;
+  top: 28px;
+}
+.pnav {
+  display: inline-block;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-image: url(https://uploads.codesandbox.io/uploads/user/fa64577d-effb-4326-9289-84f797005d07/MWz1-pnav.png);
+}
+.pnav_down {
+  width: 8px;
+  height: 6px;
+  background-position: -113px -82px;
+}
+.pnav_icon {
+  vertical-align: middle;
+  horizontal-align: center;
+  font-weight: 200;
+  display: inline-block;
+}
